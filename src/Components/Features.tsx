@@ -8,7 +8,7 @@ interface IFeature {
 
 const OneFature: React.FC<IFeature> = ({ color, logo, title, body }) => {
   return (
-    <div className="flex-1 sm:basis-3/12 sm:mr-4 shadow-lg  rounded-3xl sm:rounded-none w-3/4  mx-auto sm:m-0 flex flex-col sm:gap-3 gap-2 py-6 ">
+    <div className="flex-1 sm:basis-3/12 sm:mr-4 shadow-lg  rounded-3xl sm:rounded-none w-full  mx-auto sm:m-0 flex flex-col sm:gap-3 xss:gap-5 xs:gap-4 gap-2 py-6 ">
       <div
         className={`bg-indigo-600 shadow-xl shadow-purple-300 w-16 mx-auto p-3 rounded-lg`}
       >
@@ -35,7 +35,7 @@ function Features() {
           fingertips once you start working with them
         </p>
       </div>
-      <div className="flex flex-col mt-10 sm:flex-row gap-12">
+      <div className="flex flex-col mt-10 sm:flex-row xs:gap-12 gap-12">
         <OneFature
           logo={
             <i
