@@ -23,7 +23,7 @@ module.exports = {
     "rules": {
         "react/prop-types": "off",
         "import/extensions": [
-            "error", "never"
+            "error", "never", {".png": "always"}
           ]
     },
     "settings": {
