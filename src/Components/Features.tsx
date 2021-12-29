@@ -11,7 +11,7 @@ const OneFature: React.FC<IFeature> = ({ className, logo, title, body }) => {
   return (
     <div
       className={overrideTailwindClasses(
-        `flex-1 sm:basis-3/12 sm:mr-4 shadow-lg sm:rounded-none w-17/20  mx-auto sm:m-0 flex flex-col sm:gap-3 xss:gap-5 xs:gap-4 gap-2 py-6`
+        `flex-1 sm:basis-3/12 sm:mr-4 shadow-lg sm:rounded-none w-17/20  mx-auto sm:m-0 mb-6 xs:mb-12 sm:mb-0 flex flex-col sm:gap-3 xss:gap-5 xs:gap-4 gap-2 py-6`
       )}
     >
       <div
@@ -37,7 +37,7 @@ const OneFature: React.FC<IFeature> = ({ className, logo, title, body }) => {
 
 function Features() {
   return (
-    <div className="container mx-auto mb-32">
+    <div className="container mx-auto mb-12">
       <h1 className="text-center text-4xl mb-4 font-Poppins text-indigo-500  font-bold">
         Features
       </h1>{" "}
