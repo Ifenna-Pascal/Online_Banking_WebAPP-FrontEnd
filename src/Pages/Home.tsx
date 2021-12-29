@@ -1,6 +1,7 @@
 import React from "react";
 import Features from "../Components/Features";
 import Nav from "../Components/Nav";
+import Parralax from "../Components/Parralax";
 import Side_by_side from "../Components/Side_by_side";
 import Twos from "../Components/Two";
 import img1 from "../Util/herosvg.svg";
@@ -31,6 +32,7 @@ function Home() {
         text_h1="Download our Android app on Playstore"
         text_p="It was popularised in the 1960s and more recently with desktop publishing software like Aldus PageMaker Ipsu"
       />
+      <Parralax />
     </>
   );
 }
