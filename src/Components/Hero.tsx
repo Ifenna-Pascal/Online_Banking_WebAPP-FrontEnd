@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero: React.FC = () => {
   return (
-    <section className="h-[calc(100vh_-_3rem)] sm:h-1/2 container items-center  flex flex-col sm:flex-row  sm:my-5 my-32">
+    <section className="h-[calc(100vh_-_3rem)] bg-red-300 sm:h-1/2 container items-center  flex flex-col sm:flex-row  sm:my-5 my-32">
       <div>
         <h1 className="text-xl">Next Generation Digital Banking</h1>
         <p>

@@ -29,7 +29,7 @@ function Features() {
     <div className="container">
       <span>FEATURES</span>
       <div>
-        <h1>Features We Provide</h1>
+        <h2>Features We Provide</h2>
         <p>
           Powerful metrics to btter understand ur business are right on your
           fingertips once you start working with them

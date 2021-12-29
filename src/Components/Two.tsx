@@ -8,7 +8,7 @@ interface IProps {
 
 const Twos: React.FC<IProps> = ({ img, text_p, text_h1, reverse }) => {
   return (
-    <div className="relative sm:mt-20 mt-4 lg:mt-50 lg:mb-20">
+    <div className="relative h-screen sm:h-3/4 sm:mt-20 mt-4 xs:mt-2 lg:mt-50 lg:mb-20">
       <div
         className={`container flex flex-col ${
           reverse ? "lg:flex-row-reverse" : "lg:flex-row"

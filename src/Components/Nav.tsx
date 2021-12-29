@@ -5,7 +5,7 @@ import img1 from "../Util/logo-bookmark-white.png";
 
 const Nav: React.FC = () => {
   return (
-    <nav className="flex justify-between px-10 py-5 items-center">
+    <nav className="flex justify-between  px-10 py-5 items-center">
       <div className="py-1 sm:px-4 justify-self-start basis-3/12 sm:ml-8 flex-shrink-0 cursor-pointer">
         <img className="bg-cover" src={img1} />
       </div>
