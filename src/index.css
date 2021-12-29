@@ -7,10 +7,10 @@
 
 @layer base {
     li {
-        @apply font-Poppins text-slate-700 mr-5 hover:text-indigo-600 px-3 py-2 text-lg mr-1 tracking-wide cursor-pointer
+        @apply font-Poppins text-slate-700 mr-5 hover:text-indigo-500 px-3 py-2 text-lg mr-1 tracking-wide cursor-pointer
     }
 
     button {
-        @apply font-Poppins text-white bg-indigo-600 border-none rounded-md text-sm px-10 py-3 cursor-pointer
+        @apply font-Poppins text-white bg-indigo-500 border-none rounded-md text-sm px-10 py-3 cursor-pointer
     }
 }

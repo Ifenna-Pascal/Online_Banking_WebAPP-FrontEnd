@@ -22,7 +22,14 @@ module.exports = {
       'md': {'max':'780px'},
       ...defaultTheme.screens,
     },
-    extend: {},
+    extend: {
+      width: {
+        "17/20": '85%'
+      },
+      height: {
+        "17/20": "85%"
+      }
+    },
   },
   plugins: [],
 }
