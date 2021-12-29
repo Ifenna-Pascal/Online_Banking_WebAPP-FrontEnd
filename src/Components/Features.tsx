@@ -16,19 +16,19 @@ const OneFature: React.FC<IFeature> = ({ className, logo, title, body }) => {
     >
       <div
         className={overrideTailwindClasses(
-          `shadow-xl shadow-purple-300 flex items-center justify-center w-16 mx-auto p-3 rounded-lg ${className}`
+          `shadow-xl shadow-purple-300 xs:mb-3 flex items-center justify-center w-16 mx-auto p-3 rounded-lg ${className}`
         )}
       >
         {logo}
       </div>
       <span
         className={overrideTailwindClasses(
-          `font-semibold text-lg text-center text-indigo-400 text-center`
+          `font-semibold text-lg text-center xs:mb-2 text-indigo-400 text-center`
         )}
       >
         {title}
       </span>
-      <span className="text-gray-400 font-Poppins px-6 text-lg text-center">
+      <span className="text-gray-400 font-Poppins xs:mb-1 px-6 text-lg text-center">
         {body}
       </span>
     </div>
