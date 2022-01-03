@@ -17,15 +17,16 @@ function Register() {
     email: "",
   };
   const [input, setinput] = useState(initialState);
-  const hadleChange = (e: any) => {
+  const handleChange = (e: any) => {
     setinput((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
   const handleSubmit = (e: any): void => {
     e.preventDefault();
     console.log(input);
+    setinput(initialState);
   };
   return (
-    <div className="md:w-1/2 w-3/4 mx-auto my-32">
+    <div className="md:w-1/2 w-3/4 mx-auto h-screen flex flex-col justify-center">
       <h1 className="mb-4 text-left text-2xl font-semibold text-indigo-400 ">
         {signin ? "Signin Account" : "Create Account"}
       </h1>
@@ -38,6 +39,7 @@ function Register() {
               </span>
               <input
                 type="text"
+                onChange={handleChange}
                 value={input.firstname}
                 name="firstname"
                 className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-md shadow-sm placeholder-gray-400
@@ -54,6 +56,7 @@ function Register() {
               </span>
               <input
                 type="text"
+                onChange={handleChange}
                 value={input.lastname}
                 name="lastname"
                 className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-md shadow-sm placeholder-gray-400
@@ -70,6 +73,7 @@ function Register() {
               </span>
               <input
                 type="number"
+                onChange={handleChange}
                 value={input.phone}
                 name="phone"
                 className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-md shadow-sm placeholder-gray-400
@@ -86,6 +90,7 @@ function Register() {
           <span className="block text-md font-medium text-gray-700">Email</span>
           <input
             value={input.email}
+            onChange={handleChange}
             type="Email"
             name="email"
             className="peer mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-md shadow-sm placeholder-gray-400
@@ -107,6 +112,7 @@ function Register() {
             type="password"
             name="password"
             value={input.password}
+            onChange={handleChange}
             className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md text-md shadow-sm placeholder-gray-400
       focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
       disabled:bg-gray-50 disabled:text-gray-500 disabled:border-gray-200 disabled:shadow-none
