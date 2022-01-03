@@ -15,14 +15,14 @@ const Side_by_side: React.FC<IProps> = ({
   reverse,
 }) => {
   return (
-    <div className="h-fit container py-4 sm:h-17/20 flex flex-col bg-gray-100 items-center">
+    <div className="h-fit container w-full mx-auto py-12 px-12 flex flex-col bg-gray-100 items-center">
       <div
-        className={`container flex flex-col  sm:mt-8 mt-6 ${
+        className={`flex flex-col mb-8  sm:mt-8 mt-6 ${
           reverse ? "lg:flex-row-reverse" : "lg:flex-row"
         } items-center justify-center gap-x-24`}
       >
         {/* <!-- Image --> */}
-        <div className="flex flex-1 justify-center sm:mb-10 mb-8  lg:mb-0">
+        <div className="flex flex-1 justify-center sm:mb-10 mb-4  lg:mb-0">
           <img
             className="w-full h-5/6 sm:w-3/4 sm:h-3/4 md:w-full sm:mb-0 md:h-full"
             src={img}
@@ -31,7 +31,7 @@ const Side_by_side: React.FC<IProps> = ({
         </div>
         {/* <!-- Content --> */}
         <div className="flex py-1 px-3 flex-1 flex-col sm:gap-5 gap-3 items-center lg:items-start">
-          <h1 className="sm:text-3xl text-3xl leading-10 text-center sm:text-left font-Poppins font-bold text-indigo-500">
+          <h1 className="sm:text-5xl text-3xl leading-10 text-center sm:text-left font-Poppins font-bold text-indigo-500">
             {text_h1}
           </h1>
           <p className="text-gray-500 font-Poppins text-md sm:text-lg my-2 sm:my-4 text-center lg:text-left sm:w-3/4 lg:w-3/4">

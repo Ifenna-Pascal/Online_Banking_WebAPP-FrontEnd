@@ -13,7 +13,7 @@ function Parralax() {
         </header>
       </div>
       <div className="max-w-full bg-indigo-600 flex items-center justify-center flex-col">
-        <form className="w-3/4 mx-auto flex flex-col py-24">
+        <form className="w-3/4 sm:w-1/2 mx-auto flex flex-col py-24">
           <input
             type="text"
             placeholder="Enter you name"
@@ -30,7 +30,9 @@ function Parralax() {
             placeholder="You can talk to us..."
             className="block w-full px-3 mb-5 py-4 h-32 bg-white border border-gray-300 rounded-md text-md text-gray-600 shadow-sm focus:outline-none placeholder-gray-600"
           />
-          <button>Contact Us</button>
+          <button className="bg-red-500 hover:bg-red-600 text-lg font-semibold">
+            Contact Us
+          </button>
         </form>
       </div>
     </div>

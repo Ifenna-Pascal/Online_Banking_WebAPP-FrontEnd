@@ -37,7 +37,7 @@ const OneFature: React.FC<IFeature> = ({ className, logo, title, body }) => {
 
 function Features() {
   return (
-    <div className="container mx-auto mb-12">
+    <div className="container mx-auto sm:mb-32 mb-12">
       <h1 className="text-center text-4xl mb-4 font-Poppins text-indigo-500  font-bold">
         Features
       </h1>{" "}

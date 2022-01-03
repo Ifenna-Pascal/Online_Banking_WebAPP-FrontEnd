@@ -24,10 +24,12 @@ module.exports = {
     },
     extend: {
       width: {
-        "17/20": '85%'
+        "17/20": '85%',
+        "6/10": "60%",
       },
       height: {
-        "17/20": "85%"
+        "17/20": "85%",
+        "3/10": "35%",
       },
       backgroundImage: {
         'hero': "url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29udGFjdCUyMHVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60')"
